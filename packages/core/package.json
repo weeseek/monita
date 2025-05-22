@@ -1,10 +1,11 @@
 {
-  "name": "@monita/core",
-  "version": "1.0.0",
+  "name": "@insightfe/core",
+  "version": "1.0.1",
   "description": "核心模块",
   "main": "index.js",
   "module": "dist/index.esm.js",
   "publishConfig": {
+    "access": "public",
     "main": "dist/index.js"
   },
   "type": "module",
