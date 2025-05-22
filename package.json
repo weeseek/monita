@@ -1,0 +1,30 @@
+{
+  "name": "monita",
+  "version": "1.0.0",
+  "description": "前端监控系统",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/",
+    "release": "pnpm build && pnpm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.41.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weeseek/monita.git"
+  }
+}

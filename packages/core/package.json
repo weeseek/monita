@@ -1,0 +1,22 @@
+{
+  "name": "@monita/core",
+  "version": "1.0.0",
+  "description": "核心模块",
+  "main": "index.js",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weeseek/monita.git"
+  }
+}

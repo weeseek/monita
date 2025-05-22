@@ -1,0 +1,9 @@
+packages:
+  # 选择 packages 目录下的所有首层子目录的包
+  - packages/*
+  # 监控系统可选插件
+  - plugins/*
+  # 监控系统工具
+  - tools/*
+  # 监控系统应用  example、console
+  - apps/*
