@@ -1,0 +1,14 @@
+{
+  "name": "@weeseek/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@types/ua-parser-js": "^0.7.39",
+    "ua-parser-js": "^2.0.3"
+  }
+}

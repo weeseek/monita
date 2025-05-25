@@ -1,8 +1,8 @@
 {
-  "name": "@insightfe/core",
+  "name": "@weeseek/core",
   "version": "1.0.1",
   "description": "核心模块",
-  "main": "index.js",
+  "main": "index.ts",
   "module": "dist/index.esm.js",
   "publishConfig": {
     "access": "public",
@@ -19,5 +19,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:weeseek/monita.git"
+  },
+  "dependencies": {
+    "@weeseek/types": "workspace:*",
+    "@weeseek/utils": "workspace:*"
   }
 }
